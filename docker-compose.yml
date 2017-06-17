@@ -33,6 +33,6 @@ volumes:
   db_data:
     driver_opts:
       type: none
-      device: /home/ktg/projects/docker-wordpress-nginx/db_data
+      device: /home/user/projects/docker-wordpress-nginx/db_data
       o: bind
   wordpress:
